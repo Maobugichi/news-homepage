@@ -8,14 +8,17 @@ body {
  width: 100%;
  font-family: "Inter", sans-serif;
  font-optical-sizing: auto;
+
 }
+
+
 
 .container-main {
  width: 95%;
  margin: 20px auto;
  padding: 20px;
  height: 150vh;
- overflow-x: hidden;
+ overflow: hidden;
 }
 
 nav {
@@ -46,6 +49,14 @@ li {
 }
 li:hover {
  color: hsl(5, 85%, 63%);
+}
+
+.side-nav {
+ display: none;
+}
+
+.side-list {
+    display: none;
 }
 
 main {
