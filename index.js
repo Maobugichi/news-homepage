@@ -8,11 +8,14 @@ menuBtn.addEventListener("click",menuOPen)
 exit.addEventListener("click", menuClose)
 
 function menuOPen() {
+ sideNav.classList.remove("side-exit")
  sideNav.classList.add("side-add")
  
 }
 
 function menuClose() {
     sideNav.classList.add("side-exit")
-    
+    prev = sideNav
+   
+   
 }
