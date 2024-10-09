@@ -1,0 +1,367 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ width: 100%;
+ font-family: "Inter", sans-serif;
+ font-optical-sizing: auto;
+}
+
+.container-main {
+ width: 95%;
+ margin: 20px auto;
+ padding: 20px;
+ height: 150vh;
+ overflow-x: hidden;
+}
+
+nav {
+ width: 90%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 90px;
+
+}
+
+nav ul {
+ display: flex;
+ width: 40%;
+ justify-content: space-around;
+ list-style: none;
+ cursor: pointer;
+}
+
+.menu {
+ display: none;
+}
+
+li {
+ transition: color 0.3s ease-in;
+}
+li:hover {
+ color: hsl(5, 85%, 63%);
+}
+
+main {
+ margin: 10px auto;
+ width: 90%;
+ height: 85%;
+}
+
+section {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.lr-content {
+ display: flex;
+ height: 75%;
+ justify-content: space-between;
+}
+
+.left {
+ width: 65%;
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ gap: 10px;
+}
+
+
+.top-img {
+  width: 100%;
+  height: 60%;
+}
+
+.top-img img {
+ width: 100%;
+ height: 100%;
+}
+
+.bright-future {
+ display: flex;
+ width: 100%;
+ height: 40%;
+ gap: 20px;
+}
+
+.level-head-container {
+ width: 50%;
+}
+
+h1 {
+ font-size: 55px;
+ width: 90%;
+ font-weight: 700;
+}
+
+.bright-right {
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.bright-right p {
+ width: 100%;
+ font-size: 15px;
+ line-height: 1.7;
+
+}
+
+.bright-right button {
+ width: 55%;
+ height: 40px;
+ background-color: hsl(5, 85%, 63%);
+ border: none;
+ transition: background-color 0.5s ease-in, color 0.5s ease-in;
+ letter-spacing:3px;
+ font-size: 12px;
+}
+
+button:hover {
+ background-color: hsl(240, 100%, 5%);
+ color:  hsl(36, 100%, 99%);
+}
+
+.right {
+ width: 31%;
+ padding: 20px;
+ background-color: hsl(240, 100%, 5%);
+ height: 100%;
+}
+
+.content {
+ height: 100%;
+}
+
+.lower-content {
+ margin-top: 18px;
+ height: 87%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.hydro {
+ border-bottom: 1px solid hsl(233, 8%, 79%);;
+ height: 27%;
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+}
+
+.hydro p {
+ font-size: 15px;
+}
+
+.last {
+ border: none;
+}
+
+h2 {
+ color:hsl(35, 77%, 62%);
+ font-size: 30px;
+ margin-top: 15px;
+}
+
+h3 {
+ color: hsl(233, 8%, 79%);
+ transition: color 0.3s ease-in;
+ cursor: pointer;
+}
+
+h3:hover {
+ color: hsl(35, 77%, 62%);
+}
+
+.right p {
+ color: hsl(236, 13%, 42%);
+}
+
+.bottom-content {
+ display: flex;
+ height: 23%;
+ justify-content: space-between;
+}
+
+.nums {
+ display: flex;
+ width: 31%;
+ height: 70%;
+ gap: 10px;
+}
+
+.retro-img {
+ height: 100%;
+ width: 35%;
+}
+
+h4 {
+ font-size: 30px;
+ color: hsl(5, 85%, 63%);
+}
+
+
+h5 {
+ font-size: 19px;
+ cursor: pointer;
+ transition: color 0.5s ease-in;
+}
+
+h5:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.nums-side {
+ width: 65%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.nums-side p {
+ font-size: 15px;
+}
+
+@media (min-width:359px) and (max-width:600px) {
+    .container-main {
+        width: 100%;
+        margin: 0;
+        height: 250vh;
+       }
+       
+       nav {
+        width: 100%;
+        display: flex;
+        height: 60px;
+       }
+       
+       nav ul {
+        display:none;
+       }
+
+       .logo {
+        height: 30px;
+       }
+    
+       .menu {
+        display: block;
+       }
+       
+       main {
+        width: 100%;
+        height: 90%;
+       }
+       
+       section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       }
+       
+       .lr-content {
+        display: flex;
+        flex-direction: column;
+        height: 65%;
+        justify-content: space-around;
+        gap: 0px;
+        
+       }
+       
+       .left {
+        width: 100%;
+        height: 52%;
+       }
+
+       .top-img {
+        height: 45%;
+       }
+       
+       .bright-future {
+        flex-direction: column;
+        height: 50%;
+        gap: 20px;
+       
+       }
+       
+       .level-head-container {
+        width: 100%;
+        height: 35%;
+    
+       }
+       
+       h1 {
+        font-size: 38px;
+        width: 90%;
+       }
+       
+       .bright-right {
+        width: 100%;
+        height: 70%;
+       
+       }
+       
+       .bright-right p {
+        width: 90%;
+        font-size: 15px;
+        line-height: 1.7;
+       
+       }
+       
+       .bright-right button {
+        width: 52%;
+       font-weight: 800;
+       }
+    
+       
+       .right {
+        width: 100%;
+        height: 45%;
+       
+       }
+       
+       .content {
+        height: 100%;
+       }
+      
+       
+       .bottom-content {
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        justify-content: space-between;
+       }
+       
+       .nums {
+        display: flex;
+        width: 100%;
+        height: 25%;
+        gap: 10px;
+       }
+       
+       .retro-img {
+        height: 100%;
+        width: 35%;
+       }
+       
+      
+       
+       .nums-side {
+        width: 65%;
+        height: 90%;
+        
+       }
+       
+       
+}
